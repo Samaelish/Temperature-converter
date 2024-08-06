@@ -2,10 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
   </head>
   <body>
-    
+    <div class="container">
+      <h1 class="heading">Конвертер Температуры</h1>
+      <div class="temp-container">
+        <label for="celsius">Цельсий:</label>
+        <input
+          type="number"
+          name="celsius"
+          id="celsius"
+          placeholder="Введите температуру"
+          class="input"
+        />
+      </div>
+      <div class="temp-container">
+        <label for="fahrenheit">Фаренгейт:</label>
+        <input
+          type="number"
+          name="fahrenheit"
+          id="fahrenheit"
+          placeholder="Введите температуру"
+          class="input"
+        />
+      </div>
+      <div class="temp-container">
+        <label for="kelvin">Кельвин:</label>
+        <input
+          type="number"
+          name="kelvin"
+          id="kelvin"
+          placeholder="Введите температуру"
+          class="input"
+        />
+      </div>
+    </div>
   </body>
 </html>
